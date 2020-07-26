@@ -26,9 +26,10 @@ class Chocolates extends Sweets{
 			choco_names[i] = sc.next();
 		}
 	}
-public void sort_choco_names(String order) {
+	public void sort_choco_names(String order) 
+	{
 		String temp;
-		for(int i=0; i<no_of_chocolates; i++)
+	for(int i=0; i<no_of_chocolates; i++)
         {
             for(int j=1; j<no_of_chocolates; j++)
             {
